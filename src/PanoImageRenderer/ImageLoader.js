@@ -52,10 +52,6 @@ export default class ImageLoader {
 		}
 	}
 
-	getElement() {
-		return this._image;
-	}
-
 	static _isMaybeLoaded(image) {
 		return image && image.naturalWidth !== 0;
 	}
